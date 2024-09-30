@@ -1,0 +1,26 @@
+:root {
+    --border-radius: 10px;
+}
+
+img {
+    border-radius: var(--border-radius)
+}
+
+/* Linked card */
+aside[linked_card] {
+    cursor: pointer;
+}
+
+aside[image_card] {
+    padding: 0;
+    text-align: center;
+}
+aside[image_card] h1 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Smaller nav margin */
+nav[small] {
+    margin: 0;
+}

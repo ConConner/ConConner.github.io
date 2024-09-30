@@ -1,0 +1,85 @@
+{
+    "content": [
+
+        {
+            "id": "scrolls6",
+        
+            "type": "hack",
+            "game": "zm",
+            "name": "Metroid: Scrolls 6",
+            "authors": ["Conner", "OneOf99", "CaptGlitch", "JRP"],
+            "description": "Metroid: Scrolls 6 is a full, open-ended Metroid Zero Mission hack, originally made for the 2018 Berserker Contest made by Conner, OneOf99, CaptGlitch and JRP.\nThis version is an overhauled version of the original contest hack.\n\nThe hack has full graphical changes and a full original soundtrack.\nSaid soundtrack can also be listened to at SoundCloud.\nYou can play and explore 7 full areas and might also find things never used in a hack before.",
+        
+            "images": ["/data/images/scrolls6/title.png", "/data/images/scrolls6/solum.png", "/data/images/scrolls6/mons.png", "/data/images/scrolls6/mons-ice.png", "/data/images/scrolls6/silva.png", "/data/images/scrolls6/arx.png"],
+            "patches": 
+            [
+                {
+                    "name": "Scrolls 6 V.1.1",
+                    "path": "/data/patches/scrolls6-v.1.1.ips",
+                    "date": "2021-02-10"
+                },
+                {
+                    "name": "Scrolls 6 V.1.0",
+                    "path": "unavailable.html",
+                    "date": "2018-12"
+                }
+            ]
+        },
+
+        {
+            "id": "slb",
+        
+            "type": "hack",
+            "game": "zm",
+            "name": "So Little Bubble",
+            "authors": ["Conner"],
+            "description": "This hack was made in less than 24h. I thought it might be a good challenge. Expect about 10 - 15 minutes of playtime.",
+        
+            "images": ["/data/images/slb/title.png", "/data/images/slb/save.png", "/data/images/slb/room.png"],
+            "patches": 
+            [
+                {
+                    "name": "So Little Bubble V.1.1",
+                    "path": "/data/patches/slb-v.1.1.ips",
+                    "date": "2021-10-18"
+                },
+                {
+                    "name": "So Little Bubble V.1.0",
+                    "path": "/data/patches/slb-v.1.0.ips",
+                    "date": "2021-02-01"
+                }
+            ]
+        },
+
+        {
+            "id": "extraction",
+        
+            "type": "hack",
+            "game": "zm",
+            "name": "Metroid: Extraction",
+            "authors": ["Conner", "Exister", "Raygun"],
+            "description": "This short hack was made in two days. The world was created in less than 24 hours but due to some major problems we had to work on the hack for another day! Space Pirates have stolen a Metroid Egg while you were on your way to theCeres Station. It is your mission to extract the Metroid Egg from the Pirates' Space Station on Planet Buna SS0 in the Nulia system and return it to your ship!",
+        
+            "images": ["/data/images/extraction/title.png", "/data/images/extraction/outside.png", "/data/images/extraction/cavern.png", "/data/images/extraction/elevator.png"],
+            "patches": 
+            [
+                {
+                    "name": "Extraction V.1.2",
+                    "path": "/data/patches/extraction-v.1.2.bps",
+                    "date": "2022-03-06"
+                },
+                {
+                    "name": "Extraction V.1.1",
+                    "path": "/data/patches/extraction-v.1.1.bps",
+                    "date": "2022-03-01"
+                },
+                {
+                    "name": "Extraction V.1.0",
+                    "path": "/data/patches/extraction-v.1.0.bps",
+                    "date": "2022-03-01"
+                }
+            ]
+        }
+
+    ]
+}
