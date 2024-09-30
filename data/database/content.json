@@ -79,6 +79,46 @@
                     "date": "2022-03-01"
                 }
             ]
+        },
+
+        {
+            "id": "spooky2",
+        
+            "type": "hack",
+            "game": "zm",
+            "name": "Spooky Mission 2: The Nightmare Before Christmas",
+            "authors": ["CaptGlitch", "Caauyjdp", "Conner", "Ing Ing", "Jiffy", "JRP", "M3D", "NathanTech", "OneOf99", "Whalerynth"],
+            "description": "Samus, ever the fool, decided to jump down Ing Ing's pitfall trap during the escape, and was crushed by the falling pumpkin at the end of her quest to stop Imago from bringing eternal Christmas. But what's this? Imago has returned??? And he's threatening to bring eternal Christmas again? Samus turns in her grave, and her soul is snapped back to reality so that she can prevent this disaster! Join her on a new mission throughout Spooky Isle and find a way to stop Imago's devious plan.",
+        
+            "images": ["/data/images/spooky2/title.png", "/data/images/spooky2/nest.png", "/data/images/spooky2/boneyard.png", "/data/images/spooky2/glacier.png"],
+            "patches": 
+            [
+                {
+                    "name": "Spooky Mission 2 V.1.3",
+                    "path": "/data/patches/spooky2-v.1.3.zip",
+                    "date": "2024-07-16"
+                },
+                {
+                    "name": "Spooky Mission 2 V.1.2a",
+                    "path": "/data/patches/spooky2-v.1.2a.zip",
+                    "date": "2022-01-07"
+                },
+                {
+                    "name": "Spooky Mission 2 V.1.2",
+                    "path": "/data/patches/spooky2-v.1.2.zip",
+                    "date": "2022-01-07"
+                },
+                {
+                    "name": "Spooky Mission 2 V.1.1",
+                    "path": "unavailable.html",
+                    "date": "2021-12-24"
+                },
+                {
+                    "name": "Spooky Mission 2 V.1.0",
+                    "path": "/data/patches/spooky2-v.1.0.zip",
+                    "date": "2021-10-31"
+                }
+            ]
         }
 
     ]
