@@ -160,18 +160,78 @@
             [
                 {
                     "name": "Subzero V.1.2",
-                    "path": "/data/patches/subzero-v.1.2",
+                    "path": "/data/patches/subzero-v.1.2.ips",
                     "date": "2020-08-08"
                 },
                 {
                     "name": "Subzero V.1.1",
-                    "path": "/data/patches/subzero-v.1.1",
+                    "path": "/data/patches/subzero-v.1.1.ips",
                     "date": "2020-03-21"
                 },
                 {
                     "name": "Subzero V.1.0",
-                    "path": "/data/patches/subzero-v.1.0",
+                    "path": "/data/patches/subzero-v.1.0.ips",
                     "date": "2020-03-10"
+                }
+            ]
+        },
+
+        {
+            "id": "freezeflame",
+        
+            "type": "hack",
+            "game": "zm",
+            "name": "Metroid FreezeFlame",
+            "authors": ["Conner"],
+            "description": "This hack is an entire heatrun but with fairly spaced healing stations! I changed a lot of stuff to balance the game as best as I could. It should be easy for veterans and slightly challenging for begginers/vanilla players.",
+        
+            "images": ["/data/images/freezeflame/title.png", "/data/images/freezeflame/heated.png", "/data/images/freezeflame/frozen.png", "/data/images/freezeflame/portal.png"],
+            "downloads": 
+            [
+                {
+                    "name": "FreezeFlame V.1.2a",
+                    "path": "/data/patches/freezeflame-v.1.2a.ips",
+                    "date": "2020-10-04"
+                },
+                {
+                    "name": "FreezeFlame V.1.2",
+                    "path": "/data/patches/freezeflame-v.1.2.ips",
+                    "date": "2020-10-04"
+                },
+                {
+                    "name": "FreezeFlame V.1.1",
+                    "path": "/data/patches/freezeflame-v.1.1.ips",
+                    "date": "2020-10-02"
+                },
+                {
+                    "name": "FreezeFlame V.1.0",
+                    "path": "/data/patches/freezeflame-v.1.0.ips",
+                    "date": "2020-02-15"
+                },
+                {
+                    "name": "FreezeFlame V.0.1",
+                    "path": "/data/patches/freezeflame-v.0.1.ips",
+                    "date": "2018-04-14"
+                }
+            ]
+        },
+
+        {
+            "id": "freezeflame2",
+        
+            "type": "hack",
+            "game": "zm",
+            "name": "Metroid FreezeFlame 2: Twisted Dimensions",
+            "authors": ["Conner"],
+            "description": "Metroid FreezeFlame 2: Twisted Dimensions is the sequel to the 2020 released hack Metroid FreezeFlame. In comparison to the first entry in the FreezeFlame series, this hack is not entirely a heat run. Only a short portion in the beginning requires forced damage through heat! The hack was created for the Metroid Construction One Week Contest, which gave contestants one week to create a ROM-Hack or Fangame from scratch. FreezeFlame 2 is a unique hack since it uses the portal elements from FreezeFLame 1 to put the players in worlds formerly only known from other ROM-Hacks. It is reccommended that the player is at least a bit familiar with other Metroid: Zero Mission ROM-Hacks to have a truly good time with this hack.",
+        
+            "images": ["/data/images/freezeflame2/title.png", "/data/images/freezeflame2/frozen.png", "/data/images/freezeflame2/heated.png", "/data/images/freezeflame2/portal.png", "/data/images/freezeflame2/forest.png"],
+            "downloads": 
+            [
+                {
+                    "name": "FreezeFlame 2 V.1.0",
+                    "path": "/data/patches/freezeflame2-v.1.0.ips",
+                    "date": "2021-01-11"
                 }
             ]
         }
