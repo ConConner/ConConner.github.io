@@ -43,8 +43,15 @@ function addDataToSite(data, params) {
     item.images.forEach(image => {
 
         imageElement = document.createElement('img');
+        imageLink = document.createElement('a');
+
         imageElement.src = image;
-        images.appendChild(imageElement);
+        imageLink.href = image;
+        imageLink.target = "_blank";
+        imageLink.rel = "noopener noreferrer"
+
+        imageLink.appendChild(imageElement)
+        images.appendChild(imageLink);
 
     });
 

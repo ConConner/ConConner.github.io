@@ -234,6 +234,26 @@
                     "date": "2021-01-11"
                 }
             ]
+        },
+
+        {
+            "id": "magethemes",
+        
+            "type": "tool",
+            "game": "zm mf",
+            "name": "MAGE Themes",
+            "authors": ["Biospark", "Conner"],
+            "description": "Metroid Advance Game Editor (MAGE) is a comprehensive hacking utility for Metroid Fusion and Metroid Zero Mission created by biospark. It is a .NET 3.0 application written in C#. MAGE Themes is a modification of the original MAGE 1.4 source code created by ConConner. It is a .NET 6.0 application. Currently both versions are only compatible with the North American (U) version of each game.",
+        
+            "images": ["/data/images/magethemes/title.png", "/data/images/magethemes/fusion.png", "/data/images/magethemes/zm.png"],
+            "downloads": 
+            [
+                {
+                    "name": "MAGE Themes",
+                    "path": "https://nightly.link/ConConner/MAGE-Themes/workflows/build/QOL-Improvements/MAGEThemes.zip",
+                    "date": ""
+                }
+            ]
         }
     ]
 }
