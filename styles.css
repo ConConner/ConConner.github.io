@@ -19,6 +19,11 @@ aside[image_card] h1 {
     margin-top: 5px;
     margin-bottom: 10px;
 }
+aside[image_card] img {
+    width: var(--width-card);
+    height: 190px;
+    object-fit: cover;
+}
 
 /* Smaller nav margin */
 nav[small] {

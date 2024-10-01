@@ -21,7 +21,10 @@ function getDownloadLink(patch, name=null) {
 
 function addDataToSite(data, params) {
     const item = data.content.find(i => i.id === params);
-    if (!item) return;
+    if (!item) {
+        document.getElementById('title').textContent = "🫣 Sorry... I did not create this thing yet"
+        return;
+    }
 
     const title = document.getElementById('title');
     const desc = document.getElementById('description');
@@ -29,8 +32,6 @@ function addDataToSite(data, params) {
     const downloads = document.getElementById('downloads');
     const quickdownload = document.getElementById('quick-download');
     const authors = document.getElementById('authors');
-
-    document.getElementById('download-heading').textContent = "Versions"
 
     title.textContent = item.name;
     desc.textContent = item.description;
@@ -48,24 +49,31 @@ function addDataToSite(data, params) {
     });
 
     //Downloads
-    quickdownload.appendChild(getDownloadLink(item.patches[0], "Download"));
-    item.patches.forEach(patch => {
+    if (item.downloads.length != 0) {
 
-        listItem = document.createElement('li')
+        quickdownload.appendChild(getDownloadLink(item.downloads[0], "Download"));
+        document.getElementById('download-heading').textContent = "Versions";
 
-        //Get date created
-        var date = new Date(patch.date);
-        var formattedDate = date.toLocaleDateString(userLocale, {
-            year: 'numeric',
-            month: 'long',
-            day: 'numeric'
-        });
-        listItem.textContent = `${formattedDate}: `
+        item.downloads.forEach(patch => {
 
-        listItem.appendChild(getDownloadLink(patch));
-        downloads.appendChild(listItem);
+            listItem = document.createElement('li')
 
-    })
+            //Get date created
+            if (patch.date != "") {
+                var date = new Date(patch.date);
+                var formattedDate = date.toLocaleDateString(userLocale, {
+                    year: 'numeric',
+                    month: 'long',
+                    day: 'numeric'
+                });
+                listItem.textContent = `${formattedDate}: `
+            }
+
+            listItem.appendChild(getDownloadLink(patch));
+            downloads.appendChild(listItem);
+
+        })
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function() {

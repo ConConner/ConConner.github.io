@@ -11,7 +11,7 @@
             "description": "Metroid: Scrolls 6 is a full, open-ended Metroid Zero Mission hack, originally made for the 2018 Berserker Contest made by Conner, OneOf99, CaptGlitch and JRP.\nThis version is an overhauled version of the original contest hack.\n\nThe hack has full graphical changes and a full original soundtrack.\nSaid soundtrack can also be listened to at SoundCloud.\nYou can play and explore 7 full areas and might also find things never used in a hack before.",
         
             "images": ["/data/images/scrolls6/title.png", "/data/images/scrolls6/solum.png", "/data/images/scrolls6/mons.png", "/data/images/scrolls6/mons-ice.png", "/data/images/scrolls6/silva.png", "/data/images/scrolls6/arx.png"],
-            "patches": 
+            "downloads": 
             [
                 {
                     "name": "Scrolls 6 V.1.1",
@@ -36,7 +36,7 @@
             "description": "This hack was made in less than 24h. I thought it might be a good challenge. Expect about 10 - 15 minutes of playtime.",
         
             "images": ["/data/images/slb/title.png", "/data/images/slb/save.png", "/data/images/slb/room.png"],
-            "patches": 
+            "downloads": 
             [
                 {
                     "name": "So Little Bubble V.1.1",
@@ -61,7 +61,7 @@
             "description": "This short hack was made in two days. The world was created in less than 24 hours but due to some major problems we had to work on the hack for another day! Space Pirates have stolen a Metroid Egg while you were on your way to theCeres Station. It is your mission to extract the Metroid Egg from the Pirates' Space Station on Planet Buna SS0 in the Nulia system and return it to your ship!",
         
             "images": ["/data/images/extraction/title.png", "/data/images/extraction/outside.png", "/data/images/extraction/cavern.png", "/data/images/extraction/elevator.png"],
-            "patches": 
+            "downloads": 
             [
                 {
                     "name": "Extraction V.1.2",
@@ -91,7 +91,7 @@
             "description": "Samus, ever the fool, decided to jump down Ing Ing's pitfall trap during the escape, and was crushed by the falling pumpkin at the end of her quest to stop Imago from bringing eternal Christmas. But what's this? Imago has returned??? And he's threatening to bring eternal Christmas again? Samus turns in her grave, and her soul is snapped back to reality so that she can prevent this disaster! Join her on a new mission throughout Spooky Isle and find a way to stop Imago's devious plan.",
         
             "images": ["/data/images/spooky2/title.png", "/data/images/spooky2/nest.png", "/data/images/spooky2/boneyard.png", "/data/images/spooky2/glacier.png"],
-            "patches": 
+            "downloads": 
             [
                 {
                     "name": "Spooky Mission 2 V.1.3",
@@ -119,7 +119,61 @@
                     "date": "2021-10-31"
                 }
             ]
-        }
+        },
 
+        {
+            "id": "lamp",
+        
+            "type": "tool",
+            "game": "m2",
+            "name": "LAMP",
+            "authors": ["Conner"],
+            "description": "LAMP is a feature-rich Metroid 2: Return of Samus editor. Made with .NET and Windows Forms. You need to install .NET 6 (or higher) to run the program. Stable releases take a longer time to release but add a lot of features, which are considered stable, and fix a lot of bugs. If you want faster updates and quicker access to features, which might still be in development, download the latest development builds.",
+        
+            "images": ["/data/images/lamp/title.png", "/data/images/lamp/editor.png"],
+            "downloads": 
+            [
+                {
+                    "name": "LAMP Development",
+                    "path": "https://nightly.link/LAMP-Platform/LAMP/workflows/publish-dev-build/main/LAMP-devbuild-x64.zip",
+                    "date": ""
+                },
+                {
+                    "name": "LAMP Stable",
+                    "path": "https://github.com/LAMP-Platform/LAMP/releases",
+                    "date": ""
+                }
+            ]
+        },
+
+        {
+            "id": "subzero",
+        
+            "type": "hack",
+            "game": "zm",
+            "name": "Metroid: Subzero",
+            "authors": ["Conner"],
+            "description": "Metroid Subzero is a short, 30 minute ROM-Hack first released in March 2020. Explore a handcrafted world with a unique design and some surprises.",
+        
+            "images": ["/data/images/subzero/title.png", "/data/images/subzero/cave.png", "/data/images/subzero/morph.png", "/data/images/subzero/ripper.png", "/data/images/subzero/storm.png"],
+            "downloads": 
+            [
+                {
+                    "name": "Subzero V.1.2",
+                    "path": "/data/patches/subzero-v.1.2",
+                    "date": "2020-08-08"
+                },
+                {
+                    "name": "Subzero V.1.1",
+                    "path": "/data/patches/subzero-v.1.1",
+                    "date": "2020-03-21"
+                },
+                {
+                    "name": "Subzero V.1.0",
+                    "path": "/data/patches/subzero-v.1.0",
+                    "date": "2020-03-10"
+                }
+            ]
+        }
     ]
 }
