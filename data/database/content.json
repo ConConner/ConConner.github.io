@@ -254,6 +254,51 @@
                     "date": ""
                 }
             ]
+        },
+
+        {
+            "id": "mapmapper",
+        
+            "type": "tool",
+            "game": "zm mf m2 sm m1",
+            "name": "ConCon's MapMapper",
+            "authors": ["Conner"],
+            "description": "ConCon's Map Mapper is a tool, used to design and layout your game in an intuitive way! The tool is easy to learn and easy to master. With ConCon's Map Mapper you can always make fast changes in your map. While it was primarily designed for Metroid ROM-Hacks, you are able to use it for whatever Metroidvania you want to make!",
+        
+            "images": ["/data/images/mapmapper/title.png"],
+            "downloads": 
+            [
+                {
+                    "name": "MapMapper V.2.2",
+                    "path": "/data/files/mapmapper-v.2.2",
+                    "date": "2022-12-08"
+                },
+                {
+                    "name": "MapMapper V.2.1",
+                    "path": "/data/files/mapmapper-v.2.1",
+                    "date": "2022-02-03"
+                },
+                {
+                    "name": "MapMapper V.2.0",
+                    "path": "/data/files/mapmapper-v.2.0",
+                    "date": "2021-05-23"
+                },
+                {
+                    "name": "MapMapper V.1.1",
+                    "path": "/data/files/mapmapper-v.1.1",
+                    "date": "2021-01-10"
+                },
+                {
+                    "name": "MapMapper V.1.0",
+                    "path": "/data/files/mapmapper-v.1.0",
+                    "date": "2020-12-22"
+                },
+                {
+                    "name": "MapMapper V.0.2",
+                    "path": "/data/files/mapmapper-v.0.2",
+                    "date": "2020-08-15"
+                }
+            ]
         }
     ]
 }
