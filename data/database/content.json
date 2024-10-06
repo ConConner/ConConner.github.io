@@ -20,7 +20,7 @@
                 },
                 {
                     "name": "Scrolls 6 V.1.0",
-                    "path": "unavailable.html",
+                    "path": "/data/patches/scrolls6-v.1.0.ips",
                     "date": "2018-12"
                 }
             ]
@@ -110,7 +110,7 @@
                 },
                 {
                     "name": "Spooky Mission 2 V.1.1",
-                    "path": "unavailable.html",
+                    "path": "/data/patches/spooky2-v.1.1.zip",
                     "date": "2021-12-24"
                 },
                 {
