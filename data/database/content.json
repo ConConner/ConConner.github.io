@@ -299,6 +299,26 @@
                     "date": "2020-08-15"
                 }
             ]
+        },
+
+        {
+            "id": "ohkozm",
+        
+            "type": "hack",
+            "game": "zm",
+            "name": "Metroid Zero Mission: OHKO",
+            "authors": ["Conner"],
+            "description": "This hack was made as an ASM experiment. The idea came from JRP, who complained about the other One hit K.O. ZM hack having modified missiles.",
+        
+            "images": ["/data/images/ohkozm/title.png", "/data/images/ohkozm/settings.png"],
+            "downloads": 
+            [
+                {
+                    "name": "Zero Mission: OHKO V.1.0",
+                    "path": "/data/patches/ohkozm-v.1.0.ips",
+                    "date": "2021-07-12"
+                }
+            ]
         }
     ]
 }
