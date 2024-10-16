@@ -81,6 +81,10 @@ function addDataToSite(data, params) {
 
         })
     }
+
+    if (item.type === 'hack') {
+        document.getElementById('howto').removeAttribute('hidden')
+    }
 }
 
 document.addEventListener("DOMContentLoaded", function() {

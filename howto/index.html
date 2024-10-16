@@ -19,34 +19,46 @@
     <meta name="msapplication-config" content="/data/logos/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
   </head>
-  
+
   <body>
+
     <header>
-      <nav small>
+      <nav>
           <a href="/"><img alt="Logo" src="/data/logos/logo.png" height="70"></a>
           <ul>
-            <li id="quick-download"></li>
+              <li>Content:</li>
+              <li><a href="/query?type=hack">Hacks</a>
+                <ul>
+                  <li><a href="/query?type=hack&game=zm">Metroid: Zero Mission</a></li>
+                  <li><a href="/query?type=hack&game=m2">Metroid 2: Return of Samus</a></li>
+                </ul>
+              </li>
+              <li><a href="/query?type=tool">Tools</a></li>
+              <li><a href="/howto">Help</a></li>
           </ul>
       </nav>
+      
+      <h1>🤔 How do I... How can I...❓</h1>
+      <p>Learn how to use my content</i></mark></p>
     </header>
 
     <main>
-        <h1 id="title">Loading...</h1>
-        <h6 id="authors"></h6>
-        <p id="description"></p>
-        <br><br>
-        <div id="images"></div>
-        <br><br>
+        <section id="content-container">
 
-        <!--Download Table-->
-        <h2 id="download-heading"></h2>
-        <ul id="downloads"></ul>
-        <div id="howto" hidden>
-          <h2>How to Play</h2>
-          <p>If this is your first time playing a hack, you can find a tutorial for the setup process <a href="/howto/play.html">here</a>!</p>
-        </div>
+            <aside onclick="window.location.href = 'play.html'" linked_card image_card>
+                <img src="/data/images/howto/play.png">
+                <h1>🎮 Play Hacks</h1>
+            </aside>
+
+            <aside onclick="window.location.href = 'make.html'" linked_card image_card>
+                <img src="/data/images/howto/make.png">
+                <h1>🛠️ Make Hacks</h1>
+            </aside>
+
+        </section>
     </main>
     
 	<script src="index.js"></script>
+
   </body>
 </html>
