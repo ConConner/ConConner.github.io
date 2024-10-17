@@ -1,5 +1,12 @@
 :root {
     --border-radius: 10px;
+    --color-patcher-bg: #d3d1d1;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root[color-mode="user"] {
+        --color-patcher-bg: #535353;
+    }
 }
 
 img {
@@ -28,4 +35,21 @@ aside[image_card] img {
 /* Smaller nav margin */
 nav[small] {
     margin: 0;
+}
+
+
+/* Div center */
+div .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div .footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
