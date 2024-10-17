@@ -32,12 +32,24 @@ function addDataToSite(data, params) {
     const downloads = document.getElementById('downloads');
     const quickdownload = document.getElementById('quick-download');
     const authors = document.getElementById('authors');
+    const game = document.getElementById('game');
+    const patcher = document.getElementById('patcher');
+    const patcherUrl = document.getElementById('patcher-url');
 
     title.textContent = item.name;
     desc.textContent = item.description;
 
     //Authors
     authors.textContent = item.authors.join(' - ');
+
+    //Game info
+    if (item.type === 'hack') {
+        gameData = data.games[item.game];
+
+        game.textContent = `ROM-Hack of ${gameData.name} [${gameData.console}]`
+        patcher.removeAttribute('hidden')
+        patcherUrl.href = `/patcher/?id=${item.id}`
+    } else gameData = null;
 
     //Images
     item.images.forEach(image => {
@@ -58,9 +70,15 @@ function addDataToSite(data, params) {
     //Downloads
     if (item.downloads.length != 0) {
 
-        quickdownload.appendChild(getDownloadLink(item.downloads[0], "Download"));
-        document.getElementById('download-heading').textContent = "Versions";
+        if (gameData != null) {
+            quickDownloadLink = document.createElement('a');
+            quickDownloadLink.href = `/patcher/?id=${item.id}`;
+            quickDownloadLink.textContent = 'Download'
+        }
+        else quickDownloadLink = getDownloadLink(item.downloads[0], "Download");
+        quickdownload.appendChild(quickDownloadLink);
 
+        document.getElementById('download-heading').textContent = "Downloads";
         item.downloads.forEach(patch => {
 
             listItem = document.createElement('li')

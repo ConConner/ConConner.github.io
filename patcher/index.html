@@ -18,8 +18,8 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="/data/logos/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <link type="text/css" rel="stylesheet" href="/rom-patcher-js/style.css" media="all" />
-    <script type="text/javascript" src="/rom-patcher-js/RomPatcher.webapp.js"></script>
+    <link type="text/css" rel="stylesheet" href="./rom-patcher-js/style.css" media="all"/>
+    <script type="text/javascript" src="./rom-patcher-js/RomPatcher.webapp.js"></script>
   </head>
   
   <body>
@@ -27,55 +27,24 @@
       <nav small>
           <a href="/"><img alt="Logo" src="/data/logos/logo.png" height="70"></a>
           <ul>
-            <li><a href="javascript:void(0)" onclick="window.history.back();">Go back to Content Page</a></li>
+            <li><a id="go-back">Go back to Content Page</a></li>
           </ul>
       </nav>
       <h1 id="title">Loading...</h1>
+      <p id="subtitle"></p>
     </header>
 
     <main>
         <div id="patcher" hidden>
+
             <div id="rom-patcher-container">
-                <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-rom">
-                    <div class="text-right"><label for="rom-patcher-input-file-rom" data-localize="yes">ROM file:</label></div>
+                <div class="margin-bottom" id="rom-patcher-row-file-rom">
+                    <div class="text-center">
+                        <label  data-localize="yes">ROM file</label>
+                    </div>
                     <div class="rom-patcher-container-input">
                         <input type="file" id="rom-patcher-input-file-rom" class="empty" disabled />
                     </div>
-                </div>
-                <div class="margin-bottom text-selectable text-mono text-muted" id="rom-patcher-rom-info">
-                    <div class="rom-patcher-row">
-                        <div class="text-right">CRC32:</div>
-                        <div class="text-truncate"><span id="rom-patcher-span-crc32"></span></div>
-                    </div>
-                    <div class="rom-patcher-row">
-                        <div class="text-right">MD5:</div>
-                        <div class="text-truncate"><span id="rom-patcher-span-md5"></span></div>
-                    </div>
-                    <div class="rom-patcher-row">
-                        <div class="text-right">SHA-1:</div>
-                        <div class="text-truncate"><span id="rom-patcher-span-sha1"></span></div>
-                    </div>
-                    <div class="rom-patcher-row" id="rom-patcher-row-info-rom">
-                        <div class="text-right">ROM:</div>
-                        <div class="text-truncate"><span id="rom-patcher-span-rom-info"></span></div>
-                    </div>
-                </div>
-        
-                <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-file-patch">
-                    <div class="text-right"><label for="rom-patcher-input-file-patch" data-localize="yes">Patch file:</label>
-                    </div>
-                    <div class="rom-patcher-container-input">
-                        <select id="rom-patcher-select-patch"></select>
-                    </div>
-                </div>
-                <div class="rom-patcher-row margin-bottom" id="rom-patcher-row-patch-description">
-                    <div class="text-right text-mono text-muted" data-localize="yes">Description:</div>
-                    <div class="text-truncate" id="rom-patcher-patch-description"></div>
-                </div>
-                <div class="rom-patcher-row margin-bottom text-selectable text-mono text-muted"
-                    id="rom-patcher-row-patch-requirements">
-                    <div class="text-right text-mono" id="rom-patcher-patch-requirements-type">ROM requirements:</div>
-                    <div class="text-truncate" id="rom-patcher-patch-requirements-value"></div>
                 </div>
         
                 <div class="text-center" id="rom-patcher-row-apply">
@@ -87,7 +56,16 @@
         
             <div id="rom-patcher-powered" class="text-center">
                 <a href="https://github.com/marcrobledo/RomPatcher.js" target="_blank"><img
-                        src="/rom-patcher-js/assets/powered_by_rom_patcher_js.png" loading="lazy" />Powered by Rom Patcher JS</a>
+                        src="./rom-patcher-js/assets/powered_by_rom_patcher_js.png" loading="lazy" />Powered by Rom Patcher JS</a>
+            </div>
+
+            <div class="rom-patcher-container-input">
+              <select id="rom-patcher-select-patch" hide></select>
+            </div>
+
+            <div class="center footer">
+              <h2 class="text-center">Unsure how this works?</h2>
+              <a href="/howto/play.html">Check the help page!</a>
             </div>
         </div>
     </main>

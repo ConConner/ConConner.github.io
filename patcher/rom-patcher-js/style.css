@@ -16,12 +16,16 @@
 	user-select: none;
 	line-height: 1.8;
 
-	background-color: var(--color-bg-secondary);
+	background-color: var(--color-patcher-bg);
 	padding: 30px 15px;
 	border-radius: 3px;
-	color: black;
+	color: var(--color-text);
 	max-width: 640px;
 	margin: 0 auto;
+}
+
+#rom-patcher-container input {
+	color: black;
 }
 
 /* Rom Pacher JS - text classes */
@@ -365,8 +369,10 @@
 	color: inherit !important;
 	padding-left: 0;
 }
-
-
+#rom-patcher-select-patch[hide]{
+	visibility: hidden;
+	size: 0;
+}
 
 
 

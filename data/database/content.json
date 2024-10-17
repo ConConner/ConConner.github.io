@@ -320,5 +320,38 @@
                 }
             ]
         }
-    ]
+    ],
+
+    "games": {
+        "m1": {
+            "name": "Metroid",
+            "console": "NES",
+            "SHA-1": "ecf39ec5a33e6a6f832f03e8ffc61c5d53f4f90b",
+            "CRC32": "A2C89CB9"
+        },
+        "zm": {
+            "name": "Metroid: Zero Mission",
+            "console": "GBA",
+            "SHA-1": "5de8536afe1f0078ee6fe1089f890e8c7aa0a6e8",
+            "CRC32": "5C61A844"
+        },
+        "m2": {
+            "name": "Metroid II: Return of Samus",
+            "console": "GB",
+            "SHA-1": "74a2fad86b9a4c013149b1e214bc4600efb1066d",
+            "CRC32": "DEE05370"
+        },
+        "sm": {
+            "name": "Super Metroid",
+            "console": "SNES",
+            "SHA-1": "da957f0d63d14cb441d215462904c4fa8519c613",
+            "CRC32": "D63ED5F8"
+        },
+        "mf": {
+            "name": "Metroid Fusion",
+            "console": "GBA",
+            "SHA-1": "CA33F4348C2C05DD330D37B97E2C5A69531DFE87",
+            "CRC32": "6C75479C"
+        }
+    }
 }
