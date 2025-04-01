@@ -27,6 +27,26 @@
         },
 
         {
+            "id": "zm-flipped",
+        
+            "type": "hack",
+            "game": "zm",
+            "name": "noiƨƨiM oɿɘZ :bioɿtɘM",
+            "authors": ["Conner"],
+            "description": "It is Metroid: Zero Mission... but horizontally flipped! There are some minor parts of the game that are unflipped but it is being kept to a minimum. Special thanks to Raygun, yohann, caauyjdp and Cpt.Glitch.",
+        
+            "images": ["/data/images/zm-flipped/title.png", "/data/images/zm-flipped/brinstar.png", "/data/images/zm-flipped/norfair.png", "/data/images/zm-flipped/chozodia.png"],
+            "downloads": 
+            [
+                {
+                    "name": "Zero Mission Flipped V.1.0",
+                    "path": "/data/patches/zm-flipped-v.1.0.ips",
+                    "date": "2025-04-01"
+                }
+            ]
+        },
+
+        {
             "id": "slb",
         
             "type": "hack",
