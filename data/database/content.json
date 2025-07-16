@@ -270,7 +270,7 @@
             [
                 {
                     "name": "MAGE Themes",
-                    "path": "https://nightly.link/ConConner/MAGE-Themes/workflows/build/QOL-Improvements/MAGEThemes.zip",
+                    "path": "https://github.com/ConConner/MAGE-Themes/releases/latest",
                     "date": ""
                 }
             ]
