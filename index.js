@@ -28,7 +28,7 @@ function addDataToSite(data) {
         hackImage.alt = hack.name;
 
         //Create Title
-        const hackName = document.createElement('h1');
+        const hackName = document.createElement('h3');
         hackName.textContent = hack.name;
 
         //Append elements
